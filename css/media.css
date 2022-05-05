@@ -1,0 +1,28 @@
+.section-what-text{
+    height: 50vh;
+    padding-top: 6vh;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section-what-text {
+        height: 50vh;
+        padding-top: 2vh;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .section-what-text {
+        height: 100vh;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    
+    
+    .section-what-text {
+        height: 180vh;
+    }
+
+}

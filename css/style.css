@@ -1,0 +1,196 @@
+body{
+background-color: rgb(18, 18, 25);
+font-family: 'MedievalSharp', cursive;
+}
+
+.navbar {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 3vh;
+}
+
+.navbar-collapse{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.navbar-nav{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+padding-inline-start: 0%;
+}
+
+div ul li h1{
+display: flex;
+justify-content: center;
+}
+
+.main{
+    background-color: #ecf1f5;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, .1),
+        rgba(0, 0, 0, 1)),
+    url("../img/hero.jpg");
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+.main h1{
+    font-size: 5vh;
+
+}
+.book{
+    height: 60vh;
+    margin-bottom: 5vh;
+}
+
+
+.carousel-item{
+    text-align:center;  /*<--apparently this makes content center align center books in book section*/
+}
+
+.carousel-inner img{
+    height: 60vh;
+    z-index: -1;
+
+
+}
+
+h2{
+    font-size: 2.2vh;
+    text-align: center;
+}
+
+h5{
+    font-size: 1.5vh;
+    text-align: center;
+}
+section div {
+    color: white;
+    padding-top: 3vh;
+    font-size: 2.6vh;
+}
+
+.section-what-img{
+    background: linear-gradient(
+        rgba(0, 0, 0, .1),
+        rgba(0, 0, 0, 1)),
+    url('../img/whatis.jpg');
+    font-family: 'Cinzel', serif;
+    height: 25vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.section-what-text{
+    
+    justify-content: center;
+    display: flex;
+}
+
+.section-where-img{
+    background: linear-gradient(
+        rgba(0, 0, 0, .1),
+        rgba(0, 0, 0, 1)),
+    url('../img/books.jpg');
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 20px #000000;
+    height: 25vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn{
+    font-size: 2vh;
+    padding: 2vh 5vh;
+    background-color: #374755;
+    color: white;
+}
+
+
+
+.section-make-img{
+    background: linear-gradient(
+        rgba(0, 0, 0, .1),
+        rgba(0, 0, 0, 1)),
+    url('../img/map.jpg');
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 20px #000000;
+    height: 25vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section-make-text{
+
+    justify-content: center;
+    display: flex;
+}
+
+.maketext{
+width: 100%;
+}
+
+.cardsection{
+display: flex;
+}
+
+.accessories{
+
+
+}
+.col {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+nav {
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+}
+
+.parallax{
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+footer{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.footer-r{
+text-align: left;
+
+}
+
+.fa-brands{
+padding-right: 20px;
+
+}
