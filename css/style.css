@@ -134,7 +134,7 @@ nav {
     justify-content: center;
     display: flex;
 }
-
+ 
 .carousel-item{
     text-align:center;  /*<--apparently this makes content center align center books in book section*/
 }
