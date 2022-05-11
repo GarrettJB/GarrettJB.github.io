@@ -13,45 +13,40 @@
         height: 70vh;
         padding-top: 2vh;
     }
-    .book{
 
+    .book{
         margin-bottom: 15vh;
     }
-    .makebtn{
-        font-size: 2vh;
-        padding: 2vh 5vh;
-    }
-}
-
-@media only screen and (max-width: 980px) {
-    .section-what-text {
-        height: 70vh;
-        padding-top: 2vh;
-    }
-
-
-
 }
 
 @media only screen and (max-width: 800px) {
     .section-what-text {
         height: 100vh;
+        padding-top: 2vh;
     }
-    .book{
-
-        margin-bottom: 15vh;
-    }
-
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 450px) {
+    .section-what-text {
+        height: 120vh;
+    }
+    
+    .book{
+        margin-bottom: 15vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     
     .section-what-text {
-        height: 180vh;
+        height: 140vh;
     }
 
     .book{
-
         margin-bottom: 25vh;
+    }
+
+    .blockquote{
+        font-size: 1.1rem;
     }
 }

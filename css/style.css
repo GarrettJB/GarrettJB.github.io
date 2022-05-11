@@ -3,6 +3,46 @@ background-color: rgb(18, 18, 25);
 font-family: 'MedievalSharp', cursive;
 }
 
+/* GENERAL RULES  */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    padding-inline-start: 0%;
+}
+
+div ul li h1{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2.2vh;
+    text-align: center;
+}
+
+h5{
+    font-size: 1.5vh;
+    text-align: center;
+}
+
+section div {
+    color: white;
+    padding-top: 3vh;
+    font-size: 2.6vh;
+}
+
+/* NAVBAR SECTION */
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+}
+
 .navbar {
     font-family: 'MedievalSharp', cursive;
     font-size: 3vh;
@@ -14,21 +54,15 @@ font-family: 'MedievalSharp', cursive;
 
 .navbar-nav{
     text-align: center;
-
 }
-a{
-    text-decoration: none;
+
+/* HERO SECTION  */
+
+.hero{
+    font-size: 2vh;
+    padding: 2vh 5vh;
+    background-color: #374755;
     color: white;
-}
-
-ul{
-    list-style-type: none;
-padding-inline-start: 0%;
-}
-
-div ul li h1{
-display: flex;
-justify-content: center;
 }
 
 .main{
@@ -42,38 +76,22 @@ justify-content: center;
     font-family: 'Cinzel', serif;
     color: white;
 }
+
 .main h1{
     font-size: 5vh;
-
 }
 
+.parallax{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
-
-.carousel-item{
-    text-align:center;  /*<--apparently this makes content center align center books in book section*/
-}
-
-.carousel-inner img{
-    height: 60vh;
-    z-index: -1;
-
-
-}
-
-h2{
-    font-size: 2.2vh;
-    text-align: center;
-}
-
-h5{
-    font-size: 1.5vh;
-    text-align: center;
-}
-section div {
-    color: white;
-    padding-top: 3vh;
-    font-size: 2.6vh;
-}
+/* WHAT SECTION */
 
 .section-what-img{
     background: linear-gradient(
@@ -88,19 +106,18 @@ section div {
     align-items: center;
     justify-content: center;
     display: flex;
-
 }
 
 .section-what-text{
-    
     justify-content: center;
     display: flex;
 }
 
 .blockquote{
-font-size: 2.4vh;
-
+    font-size: 1.3rem;
 }
+
+/* WHERE SECTION */
 
 .section-where-img{
     background: linear-gradient(
@@ -118,23 +135,25 @@ font-size: 2.4vh;
     display: flex;
 }
 
+.carousel-item{
+    text-align:center;  /*<--apparently this makes content center align center books in book section*/
+}
+
+.carousel-inner img{
+    height: 60vh;
+    z-index: -1;
+}
+
 .section-where-text p{
     font-size: 2.5vh;
-padding-bottom: 2vh;
+    padding-bottom: 2vh;
 }
 
 .whereicons{
     padding-top: 15vh;
 }
 
-.hero{
-    font-size: 2vh;
-    padding: 2vh 5vh;
-    background-color: #374755;
-    color: white;
-}
-
-
+/* MAKE SECTION  */
 
 .section-make-img{
     background: linear-gradient(
@@ -153,20 +172,20 @@ padding-bottom: 2vh;
 }
 
 .section-make-text{
-
     justify-content: center;
     display: flex;
 }
 
 .maketext{
-width: 100%;
+    width: 100%;
 }
-
 
 .cardsection{
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+/* ACCESSORIES SECTION  */
 
 .section-accessories-img{
     background: linear-gradient(
@@ -183,11 +202,11 @@ flex-wrap: wrap;
     justify-content: center;
     display: flex;
 }
+
 .LUD{
     transition-duration: 0.4s;
-    cursor: pointer;
     color: black;
-
+    background-color: rgb(66,94,106);
 }
 
 .LUD:hover{
@@ -199,11 +218,11 @@ flex-wrap: wrap;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .DHD{
     transition-duration: 0.4s;
-    cursor: pointer;
     color: black;
-
+    background-color: rgba(66,94,106, .7);
 }
 
 .DHD:hover{
@@ -215,10 +234,10 @@ flex-wrap: wrap;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .KD{
-    background-color: rgb(137, 86, 35);
+    background-color: rgba(66,94,106, .5);
     transition-duration: 0.4s;
-    cursor: pointer;
 }
 
 .KD:hover{
@@ -229,43 +248,37 @@ flex-wrap: wrap;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
+.dicelowerbuttons{
+    padding: 0%;
+}
 
+.dicelowerbuttons a{
+    background-color: rgba(66,94,106, .3);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.dicelowerbuttons a:hover{
+    background-color: rgb(18, 18, 25);
+}
 
 .col {
     display: flex;
     justify-content: center;
     color: white;
-
-}
-nav {
-    font-family: 'Open Sans', sans-serif;
-    background: none;
-}
-
-.parallax{
-
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-display: flex;
-align-items: center;
-justify-content: center;
 }
 
 footer{
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
-.footer-r{
-text-align: left;
 
+.footer-r{
+    text-align: left;
 }
 
 .fa-brands{
-padding-right: 20px;
-
+    padding-right: 20px;
 }
