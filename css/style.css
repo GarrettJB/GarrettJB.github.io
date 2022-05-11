@@ -123,7 +123,7 @@ nav {
     background: linear-gradient(
         rgba(0, 0, 0, .1),
         rgba(0, 0, 0, 1)),
-    url('../img/books.jpg');
+    url('../img/Books.jpg');
     font-family: 'Cinzel', serif;
     text-shadow: 2px 2px 20px #000000;
     height: 25vh;
